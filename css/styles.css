@@ -441,29 +441,54 @@ a {
   }
 }
 
-/* line 18, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 20, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
 /* line 22, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+.default:hover {
+  background-color: #83e7fd;
+}
+
+/* line 28, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 26, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 30, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+.error:hover {
+  background-color: #eca0a3;
+}
+
+/* line 35, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 30, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 37, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+.info:hover {
+  background-color: #af9ed1;
+}
+
+/* line 42, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 34, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 44, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+.success:hover {
+  background-color: #89d9a1;
+}
+
+/* line 49, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 51, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+.warning:hover {
+  background-color: #fea088;
 }
 
 /* ============================================= */
