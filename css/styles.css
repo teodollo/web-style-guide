@@ -423,7 +423,7 @@ a {
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
-/* line 5, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 4, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .btn {
   margin-top: 15px;
   width: 100%;
@@ -434,59 +434,52 @@ a {
   border-radius: 5px;
 }
 
-@media (min-width: 768px) {
-  /* line 5, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
-  .btn {
-    padding: 10px 30px;
-  }
-}
-
-/* line 20, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 14, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 22, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 16, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .default:hover {
   background-color: #83e7fd;
 }
 
-/* line 28, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 22, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 30, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 24, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .error:hover {
   background-color: #eca0a3;
 }
 
-/* line 35, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 29, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 37, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 31, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .info:hover {
   background-color: #af9ed1;
 }
 
-/* line 42, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 36, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 44, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 38, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .success:hover {
   background-color: #89d9a1;
 }
 
-/* line 49, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 43, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .warning {
   background-color: #fd7856;
 }
 
-/* line 51, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
+/* line 45, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_button.scss */
 .warning:hover {
   background-color: #fea088;
 }
@@ -522,36 +515,19 @@ a {
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
-/* line 5, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 4, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .container {
   padding: 0 10px;
 }
 
-@media (min-width: 768px) {
-  /* line 5, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
-  .container {
-    max-width: 1400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* line 15, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 8, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;
 }
 
-@media (min-width: 768px) {
-  /* line 15, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
-  .row {
-    flex-direction: row;
-  }
-}
-
-/* line 24, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 14, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 [class^=col] {
   margin-top: 10px;
   flex-basis: 100%;
@@ -560,77 +536,67 @@ a {
   border-radius: 5px;
 }
 
-@media (min-width: 768px) {
-  /* line 24, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
-  [class^=col] {
-    display: flex;
-    justify-content: center;
-    margin-top: 0;
-    align-items: center;
-  }
-}
-
-/* line 38, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 26, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
-/* line 42, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 30, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
-/* line 46, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 34, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
-/* line 50, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 38, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
-/* line 54, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 42, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
-/* line 58, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 46, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
-/* line 62, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 50, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
-/* line 66, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 54, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
-/* line 70, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 58, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
-/* line 74, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 62, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
-/* line 78, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 66, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
-/* line 82, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 70, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
-/* line 87, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
+/* line 75, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_grid.scss */
 .card {
   flex-basis: 100%;
 }
@@ -638,7 +604,7 @@ a {
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
-/* line 6, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_navigation.scss */
+/* line 5, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_navigation.scss */
 .nav {
   padding-left: 0;
   flex-basis: 100%;
@@ -646,16 +612,7 @@ a {
   flex-direction: column;
 }
 
-@media (min-width: 768px) {
-  /* line 6, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_navigation.scss */
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-}
-
-/* line 18, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_navigation.scss */
+/* line 12, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -665,14 +622,7 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-@media (min-width: 768px) {
-  /* line 18, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_navigation.scss */
-  .nav-link {
-    flex-basis: 100px;
-  }
-}
-
-/* line 32, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_navigation.scss */
+/* line 25, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
@@ -779,6 +729,65 @@ a {
   .logo {
     margin-left: initial;
     margin-right: initial;
+  }
+}
+
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 79, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_media-queries.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+}
+
+/* ============================================= */
+/*              Grid System                      */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 90, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_media-queries.scss */
+  .container {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 99, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_media-queries.scss */
+  .row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 105, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_media-queries.scss */
+  [class^=col] {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+  }
+}
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+@media (min-width: 768px) {
+  /* line 118, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_media-queries.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 126, ../../../OneDrive/Skrivebord/frontend projects/web-style-guide/scss/component/_media-queries.scss */
+  .nav-link {
+    flex-basis: 100px;
   }
 }
 
